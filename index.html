@@ -25,6 +25,7 @@
             <a href="#sobre"></a>
             <a href="#integrantes"></a>
             <a href="#discos"></a>
+            <a href="#recomend"></a>
         </nav>
     </header>
 
@@ -38,6 +39,7 @@
         <section id="integrantes">
             <h2>Integrantes de PSB</h2>
         </section>
+
         <section id="Discografia">
             <h2>Discografía</h2>
             <ul>
@@ -57,6 +59,46 @@
                 <li><a href="https://music.youtube.com/playlist?list=OLAK5uy_leDamg1kOlh4bv8BtKB0bHGxrmB_bZSt8" target="_blank"><strong>Hotsopot</strong> (2020) </a></li>
                 <li><a href="https://music.youtube.com/playlist?list=OLAK5uy_k-hCEmWaf9E6_hpS1Lmqb5pOy-Zv6Exyw" target="_blank"><strong>Nontheless</strong> (2024) </a></li>
             </ul>
+        </section>
+
+        <section id="recomend">
+            <h2>Recomenaciones</h2>
+            <p>Ingresa tus datos y selecciona alguno de los 15 albunes de PSB para enviarte las recomendaciones con sus mejores temas</p>
+            <br>
+            <form>
+                <!-- Agrega un campo para introducir el nombre del usuario (Opcional) -->
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+
+                <!-- Agrega un campo para introducir el correo electrónico del usuario (Obligatorio) --> 
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required><br><br>
+
+                <label for="discos">Elige una disco:</label>
+                <select id="discos" name="discos" size="1">
+                    <option value="disc1">Please</option>
+                    <option value="disc2">Actually</option>
+                    <option value="disc3">Instrospective</option>
+                    <option value="disc4">Behaviour</option>
+                    <option value="disc5">Very</option>
+                    <option value="disc6">Bilingual</option>
+                    <option value="disc7">Nightlife</option>
+                    <option value="disc8">Release</option>
+                    <option value="disc9">Fundamental</option>
+                    <option value="disc10">Yes</option>
+                    <option value="disc11">Elysium</option>
+                    <option value="disc12">Electric</option>
+                    <option value="disc13">Super</option>
+                    <option value="disc14">Hotsopot</option>
+                    <option value="disc15">Nontheless</option>
+                </select>
+
+                <br><br>
+                <!-- Agrega Botón para envia formularios -->
+                <button type="submit">Enviar mensaje</button>
+
+                
+            </form>
         </section>
     </main>
     
