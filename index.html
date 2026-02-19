@@ -15,7 +15,7 @@
 
     <!-- Encabezado Principal -->
     <h1>PET SHOP BOYS</h1>
-
+    <img src="img/psb.jpg" alt="Imagen de PSB">
 
     <!-- Se coloca estructura de página (encabezado)-->
     <header>
@@ -34,14 +34,37 @@
 
         <section id="sobre">
             <h2>Acerca de Pet Shop Boys (PSB)</h2>
+            <p> <strong>Pet Shop Boys</strong> es un dúo de <strong>synthpop</strong> británico, conformado por el cantante y compositor <a href="#neilT">Neil Tennant</a> y el tecladista y compositor <a href="#chrisL">Chris Lowe</a>, 
+                formado en Londres, en 1981.  Tuvo su máximo esplendor durante mediados de los años 80 y hasta finales de los 90, y hasta la fecha, el grupo ha vendido más de 100 millones de discos 
+                en todo el mundo.</p>
         </section>
 
         <section id="integrantes">
             <h2>Integrantes de PSB</h2>
+            <br>
+            <span id="neilT" class="neilT">Neil Tennant</span> (Voz, teclados, sintetizador, guitarra)
+            <p>Neil Francis Tennant (North Tyneside, 10 de julio de 1954), conocido como Neil Tennant, es un cantante y compositor británico, integrante, desde 1981, del dúo de synth pop Pet Shop Boys, junto a Chris Lowe.</p>
+            <p>Estudio historia en el politécnico de North London. Antes de convertirse en músico profesional, Tennant fue editor de la revista Smash Hits, una experiencia que le dio acceso íntimo al engranaje del pop comercial. 
+                Desde ahí aprendió cómo se construían los ídolos y qué había detrás de cada éxito. Pero Tennant no solo observaba, también analizaba. Sabía que el pop podía ser algo más que espectáculo: podía ser pensamiento, 
+                estilo y resistencia.</p>
+            <p>Aunque Neil comenzó a componer canciones a los 14 años, no será hasta los 32 cuando publique su primer álbum junto a Chris Lowe, un estudiante de arquitectura a quien conoció en una tienda de tecnología musical.</p>
+            <img src="img/neilT.jpg" alt="Imagen de Nail Tennan" width="300">
+
+            <br><br><br><br>
+            <span id="chrisL" class="chrisL">Chris Lowe</span> (Sintetizadores, piano, batería electrónica y caja de ritmos)
+            <p>Christopher Sean Lowe (Blackpool, Lancashire, 4 de octubre de 1959) es teclista británico del dúo Pet Shop Boys desde 1981.</p>
+            <p>Lowe estudió arquitectura en la Universidad de Liverpool desde 1978, pero nunca se graduó debido a la formación de Pet Shop Boys, como declaró varias veces en apariciones en televisión y en el documental "Life in Pop". 
+                Mientras realizaba unas prácticas de arquitectura en Londres en 1981, diseñó una escalera para un parque industrial de Milton Keynes. En ese momento conoció a Neil Tennant en una tienda de alta fidelidad en el Kings 
+                Road en Londres.</p>
+            <p>Lowe generalmente desempeña la función de teclista de Pet Shop Boys; en algunas ocasiones ha realizado el acompañamiento de coros.</p>
+            <img src="img/chrisL1.jpg" alt="Imagen de Chris Lowe" width="300">
+            <br>
         </section>
 
         <section id="Discografia">
+            <br><br>
             <h2>Discografía</h2>
+            <p>Da click en alguno de los enlaces para abrir el contenido en Youtube Music</p>
             <ul>
                 <li><a href="https://music.youtube.com/playlist?list=OLAK5uy_mQ2JwANB6PPycuAKc0BiiTdf0M5-FPr6M" target="_blank"><strong>Please</strong> (1986) </a></li>
                 <li><a href="https://music.youtube.com/playlist?list=OLAK5uy_mt6QdnuLVQonkEMu3SV_upVJcxjne2bBc" target="_blank"><strong>Actually</strong> (1987) </a></li>
@@ -61,21 +84,26 @@
             </ul>
         </section>
 
+        <div class="recomendaciones">
         <section id="recomend">
+            <br>
             <h2>Recomenaciones</h2>
-            <p>Ingresa tus datos y selecciona alguno de los 15 albunes de PSB para enviarte las recomendaciones con sus mejores temas</p>
+            <p>Ingresa tus datos, y selecciona alguno de los 15 albunes de PSB para enviarte las recomendaciones con sus mejores (de cada album).
+                temas</p>
             <br>
             <form>
                 <!-- Agrega un campo para introducir el nombre del usuario (Opcional) -->
                 <label for="nombre">Nombre: </label>
                 <input type="text" id="nombre" name="nombre"><br><br>
-
-                <!-- Agrega un campo para introducir el correo electrónico del usuario (Obligatorio) --> 
+        
+                <!-- Agrega un campo para introducir el correo electrónico del usuario (Obligatorio) -->
                 <label for="email">Email: </label>
                 <input type="email" name="email" id="email" required><br><br>
-
+        
+                <!-- Agrega un list box para seleccionar alguno de los 15 discos de PSB -->
                 <label for="discos">Elige una disco:</label>
-                <select id="discos" name="discos" size="1">
+                <select id="discos" name="discos" size="1" required>
+                    <option value="">--Selecciona un Disco--</option>
                     <option value="disc1">Please</option>
                     <option value="disc2">Actually</option>
                     <option value="disc3">Instrospective</option>
@@ -92,14 +120,16 @@
                     <option value="disc14">Hotsopot</option>
                     <option value="disc15">Nontheless</option>
                 </select>
-
+        
+                <!-- Agrega un doble salto de Linea -->
                 <br><br>
+        
                 <!-- Agrega Botón para envia formularios -->
                 <button type="submit">Enviar mensaje</button>
-
-                
+        
             </form>
         </section>
+        </div>
     </main>
     
     <br>
