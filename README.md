@@ -26,7 +26,7 @@ cd proyecto_final
 
 Desde Github Pages con el siguiente link:
 
-https://fakerivas18.github.io/proyecto_final/
+https://fakerivas18.github.io/proyecto_final/ 
 
 
 
