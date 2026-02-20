@@ -1,7 +1,7 @@
 # Proyecto Final - OSCAR RAUL RIVAS VALLADARES
 
-Repositorio que contiene un proyecto básico desarrollado con [HTML y
-CSS].
+Repositorio que contiene el desarrollo de una página WEB básica en la cual se aplican los conocimientos obtenidos
+durante el curso de HTML y CSS]
 
 
 
@@ -25,6 +25,8 @@ cd proyecto_final
 ## Abrir el proyecto en Visual Github Pages
 
 Desde Github Pages con el siguiente link:
+
+https://fakerivas18.github.io/proyecto_final/
 
 
 
