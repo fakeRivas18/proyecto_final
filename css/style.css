@@ -20,16 +20,20 @@ h2{
     font-size: 30px;
 }
 
+nav{
+    text-align: center;
+}
+
 nav a{
     color: #62BBC1;
     background-color: #0407cf ;
     font-weight: bold;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     padding: 10px;
     width: 200px;
-    margin: auto;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
